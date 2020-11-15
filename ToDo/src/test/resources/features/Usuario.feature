@@ -41,7 +41,7 @@
       Então digito uma senha em Criar senha e clico em proximo
       E preencho os campos Nome e Sobrenome e pressiono proximo
       E informo os dados de Pais/regiao e data de nascimento e pressiono proximo
-      Quando digito os caracteres exibidos na tela e pressiono proximo
+      Quando digio os caracteres exibidos na tela e pressiono proximo
       Então o site realiza o login e exibe a pagina do To Do
 
 
