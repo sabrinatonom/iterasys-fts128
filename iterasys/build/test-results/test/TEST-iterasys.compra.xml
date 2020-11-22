@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="iterasys.compra" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-15T20:16:11" hostname="DESKTOP-193CDHM" time="30.621">
+<testsuite name="iterasys.compra" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-21T16:47:59" hostname="DESKTOP-193CDHM" time="38.471">
   <properties/>
-  <testcase name="comprarnosite" classname="iterasys.compra" time="30.621"/>
+  <testcase name="comprarnosite" classname="iterasys.compra" time="38.471"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 10228
+  <system-err><![CDATA[Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 31114
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-nov 15, 2020 5:16:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+nov 21, 2020 1:48:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMAÇÕES: Detected dialect: W3C
 ]]></system-err>
 </testsuite>
