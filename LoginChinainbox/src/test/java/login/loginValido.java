@@ -65,6 +65,18 @@ public class loginValido {
         Thread.sleep(3000);
         assertEquals("Samia", driver.findElement(By.cssSelector(".icon-menu span:nth-child(3)")).getText());
         tirarPrint("Passo 6 - Confirmar o nome do usuario");
+
+        // procurar produto
+        driver.findElement(By.id("search")).click();
+        driver.findElement(By.id("search")).sendKeys("Yakissoba");
+        tirarPrint("Passo 7 - Item Pesquisado");
+        driver.findElement(By.id("search")).sendKeys(Keys.ENTER);
+        Thread.sleep(3000);
+        tirarPrint("Passo 8 - Pagina com busca apresentada");
+        driver.findElement(By.id("CC-product-grid-detail-9000000009-00")).click();
+        assertTrue(driver.findElement(By.cssSelector(".-main-description h2")).getText().contains("Yakissoba"));
+        tirarPrint("Passo 9 - Produto confirmado");
+        //driver.findElement(By.cssSelector("button.btn.btn-green.btn-full")).click();
     }
 
 }
