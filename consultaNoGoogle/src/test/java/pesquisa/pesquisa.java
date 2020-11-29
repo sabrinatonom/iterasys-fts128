@@ -26,6 +26,9 @@ import java.util.Collection;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+
 //3 - classe
 @RunWith(Parameterized.class) // Esta classe é parametrizada = lê uma massa de teste
 public class pesquisa {
@@ -121,6 +124,8 @@ public class pesquisa {
         driver.findElement(By.cssSelector("input.gLFyf.gsfi")).sendKeys(Keys.ENTER);
         Thread.sleep(3000);
         driver.findElement(By.cssSelector("div.hdtb-mitem.hdtb-msel.hdtb-imb")).click();
+        //assertEquals(pesquisa, driver.findElement(By.name("q")).getText());
+        assertTrue(driver.findElement(By.tagName("body")).getText().contains(pesquisa));
         tirarPrint("Passo 3 - Resultado da pesquisa no navegador ");
     }
 
